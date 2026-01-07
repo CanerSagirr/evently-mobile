@@ -1,31 +1,27 @@
-# evently-mobile
+# Evently Mobile
 
-Flutter ile geliştirilmiş bir mobil etkinlik uygulamasıdır.  
-Bu proje, Mobil Uygulama Geliştirme dersi kapsamında hazırlanmıştır.
+Evently Mobile, Flutter (Dart) kullanılarak geliştirilmiş bir mobil etkinlik keşif uygulamasıdır.
+Uygulama kullanıcıların etkinlikleri görüntüleyebilmesini, arama yapabilmesini ve
+kullanıcı hesabı ile giriş işlemlerini gerçekleştirebilmesini amaçlamaktadır.
 
-##  Proje Hakkında
-Evently Mobile, kullanıcıların şehir bazlı etkinlikleri listeleyebildiği,  
-kullanıcı girişi ve kayıt sistemi bulunan bir mobil uygulamadır.
+## Kullanılan Teknoloji
+- Flutter (Dart)
 
-Uygulama üzerinden:
-- Etkinlikler listelenebilir
-- Kullanıcı girişi ve kayıt işlemleri yapılabilir
-- Profil ekranı görüntülenebilir
+## Test Edilen Platformlar
+- Android Emulator (Android Studio)
+- Android Fiziksel Cihaz
 
-##  Kullanılan Teknolojiler
-- Flutter
-- Dart
-- RESTful API
-- ASP.NET Core Web API (Backend)
-- Android Emulator
+## Uygulama Özellikleri
+- Giriş (Login) ekranı
+- Etkinlik listeleme / keşfet sayfası
+- Arama ve filtreleme
+- Profil ekranı
+- API üzerinden veri çekme
 
-##  Test Ortamı
-- Android Emulator
-- Fiziksel Android cihaz
+## Çalışma Yapısı
+Uygulama Flutter ile geliştirilmiştir.
+Veriler API üzerinden alınmaktadır.
+Demo videosunda uygulamanın ekranları ve çalışma akışı gösterilmiştir.
 
-##  Kurulum
-Projeyi çalıştırmak için:
-
-```bash
-flutter pub get
-flutter run
+## Proje
+Bu proje, Araştırma Yöntem ve Teknikleri dersi final projesi kapsamında geliştirilmiştir.

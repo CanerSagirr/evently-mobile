@@ -1,27 +1,58 @@
-# Flutter
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-
-# Build outputs
-build/
-
-# IDE
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
 .idea/
 .vscode/
-*.iml
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
 
 # Android
 android/.gradle/
 android/local.properties
+android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
 
 # iOS
 ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
 ios/Flutter/ephemeral/
 
-# Desktop
-linux/flutter/ephemeral/
+# macOS
 macos/Flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Windows
 windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# APK / AAB (KESİNLİKLE GITHUB'A GİTMEZ)
+*.apk
+*.aab
+
+# Coverage
+coverage/
+
+# Firebase / secrets
+*.jks
+*.keystore
+*.pem
+.env
+.env.*
+# IDE files
+*.iml
